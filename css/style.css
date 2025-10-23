@@ -1,10 +1,12 @@
-
+body {
+    background-color: black;
+}
 
 nav {
     height: auto;
     width: 88.5%;
     text-align: center;
-    border: black 1px solid;
+    border: white 1px solid;
     border-radius: 8px;
     margin-top: 20px;
 }
@@ -18,8 +20,8 @@ nav {
 #menu ul li a 
 {
     text-decoration: none;
-    color: black;
-    border: solid 1px black;
+    color: lightslategrey;
+    border: solid 1px lightslategray;
     padding: 3px;
     padding: 8px;
     border-radius: 8px;
@@ -39,7 +41,7 @@ nav {
 header {
     float: left;
     height: 320px;
-    border: 1px black solid;
+    border: 1px white solid;
     width: 85%;
     margin: 20px 0 20px 0;
     border-radius: 8px;
@@ -54,7 +56,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    border: 1px solid black;
+    border: 1px solid white;
     height: 550px;
     width: 85%;
     border-radius: 8px;
@@ -78,21 +80,23 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
+    border: 1px lightslategray solid;
 }
 
 
 
 .bemutatkozas {
-    border: 1px black solid;
+    border: 1px lightslategray solid;
     height: 230px;
     width: 467px;
     margin: 10px 20px 20px 0;
     border-radius: 8px;
     padding: 10px;
+    text-align: justify;
 }
 
 .szoveg {
-    border: 1px solid black;
+    border: 1px solid lightslategray;
     height: 470px;
     width: 425px;
     margin-top: 20px;
@@ -117,7 +121,7 @@ section {
 
 li {
     font-size: 118%;
-
+    color: white;
 }
 
 
@@ -129,14 +133,16 @@ h1, h3{
 h2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 p {
     font-size: larger;
+    color: white;
 }
 
 #menu ul li a:hover {
-    background-color: black;
+    background-color: lightgrey;
     color: lightseagreen;
 }
 
@@ -154,7 +160,7 @@ p {
 
 .szolg {
     float: left;
-    border: 1px solid black;
+    border: 1px solid lightslategray;
     height: 300px;
     width: 470px;
     border-radius: 8px;
@@ -165,7 +171,7 @@ p {
 
 .part {
     float: left;
-    border: 1px solid black;
+    border: 1px solid lightslategray;
     height: 300px;
     width: 470px;
     border-radius: 8px;
@@ -176,7 +182,7 @@ p {
 
 footer {
     float: left;
-    border: 1px black solid;
+    border: 1px white solid;
     width: 87%;
     height: 35px;
     padding: 10px;
@@ -186,7 +192,7 @@ footer {
 
 footer h3 {
     text-align: center;
-    color: black;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 95%;
 }
