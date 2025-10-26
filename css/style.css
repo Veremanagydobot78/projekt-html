@@ -1,32 +1,35 @@
 body {
-    background-color: black;
+    background-color: #353839;
 }
 
 nav {
+    border: 1px rgb(92, 88, 88) solid;
     height: auto;
     width: 88.5%;
     text-align: center;
-    border: white 1px solid;
     border-radius: 8px;
     margin-top: 20px;
+    background-color: rgba(92,88,88,0.75);
 }
+
 
 #menu li {
     list-style-type: none;
-    display: inline;
+    display: inline;   
 
 }
 
 #menu ul li a 
 {
     text-decoration: none;
-    color: lightslategrey;
-    border: solid 1px lightslategray;
+    color: white;
+    border: solid 1px white;
     padding: 3px;
     padding: 8px;
     border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .container {
@@ -56,8 +59,8 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    border: 1px solid white;
-    height: 550px;
+    background-color: rgba(92,88,88,0.75);
+    height: 600px;
     width: 85%;
     border-radius: 8px;
     padding: 20px;
@@ -80,13 +83,12 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
-    border: 1px lightslategray solid;
+    border: 1px white solid;
 }
 
 
 
 .bemutatkozas {
-    border: 1px lightslategray solid;
     height: 230px;
     width: 467px;
     margin: 10px 20px 20px 0;
@@ -96,8 +98,7 @@ section {
 }
 
 .szoveg {
-    border: 1px solid lightslategray;
-    height: 470px;
+    height: 390px;
     width: 425px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -119,6 +120,28 @@ section {
     flex-direction: column;
 }
 
+.jobb-oldal {
+    display: flex;
+    flex-direction: column;
+}
+
+.tudn {
+    margin-top: 20px;
+    color: #663399;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: #353839;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.bemu {
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: #353839;
+    border-radius: 20px;
+    color: #663399;
+    margin-right: 50px;
+}
+
 li {
     font-size: 118%;
     color: white;
@@ -133,7 +156,7 @@ h1, h3{
 h2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    
 }
 
 p {
@@ -143,7 +166,7 @@ p {
 
 #menu ul li a:hover {
     background-color: lightgrey;
-    color: lightseagreen;
+    color: #663399;
 }
 
 .rendezes {
@@ -160,18 +183,18 @@ p {
 
 .szolg {
     float: left;
-    border: 1px solid lightslategray;
     height: 300px;
     width: 470px;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
     margin-right: 40px;
+    background-color: rgba(92,88,88,0.75);
 }
 
 .part {
     float: left;
-    border: 1px solid lightslategray;
+    background-color: rgba(92,88,88,0.75);
     height: 300px;
     width: 470px;
     border-radius: 8px;
@@ -182,9 +205,9 @@ p {
 
 footer {
     float: left;
-    border: 1px white solid;
+    background-color: rgba(92,88,88,0.75);
     width: 87%;
-    height: 35px;
+    height: 45px;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -195,4 +218,20 @@ footer h3 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 95%;
+}
+
+.szolgalt {
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: #353839;
+    border-radius: 20px;
+    color: #663399;
+    margin: 0 10px 20px 10px;
+}
+
+.partne {
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: #353839;
+    border-radius: 20px;
+    color: #663399;
+    margin: 0 10px 20px 10px;
 }
