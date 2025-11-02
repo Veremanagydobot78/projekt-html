@@ -235,3 +235,19 @@ footer h3 {
     color: #663399;
     margin: 0 10px 20px 10px;
 }
+
+.also ul li{
+    margin-top: 10px;
+    font-size: 130%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.also ul {
+    margin-top: 40px;
+}
+
+.szolg li a{
+    text-decoration: underline;
+    color: white;
+}
