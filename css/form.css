@@ -1,0 +1,98 @@
+body {
+    background-color: #1f1f1f;
+    font-family: "Poppins", sans-serif;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 88.5%;
+    margin: 20px auto;
+    background: #2b2b2b;
+    border-radius: 12px;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+#menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #b8a9d9;
+    border: 1px solid #6d4cc9;
+    padding: 10px 16px;
+    border-radius: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    background-color: #333;
+    
+}
+
+.container, section, header {
+    box-sizing: border-box;
+}
+
+.felso {
+  width: 90%;
+  height: 200px;
+  background-color: #2f2f2f;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  border: 1px solid #6d4cc9;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
+  margin: 30px auto;
+}
+
+.felso h1 {
+  color: white;
+  text-shadow: 0 0 8px #6d4cc9;
+}
+
+.felso p {
+  color: white;
+  text-shadow: 0 0 8px #6d4cc9;
+}
+
+.felso {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+}
+
+section {
+    background-color: #2f2f2f;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    border: 1px solid #6d4cc9;
+    margin: 0 10px 30px 10px;
+    width: 1100px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    color: #a8a8a8;
+    background-color: #262626;
+    border-top: 1px solid #3d3d3d;
+    border-radius: 8px;
+    width: 88.5%;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}

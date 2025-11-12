@@ -244,7 +244,7 @@ nav {
   width: 100%;
   height: 100%;
   background: repeating-linear-gradient(to right, #4f38a8 0 20px, #6d4cc9 20px 40px);
-  animation: beltScroll 0.6s linear infinite;
+  animation: beltScroll 0.3s linear infinite;
 }
 
 @keyframes beltScroll {
