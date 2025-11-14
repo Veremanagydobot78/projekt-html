@@ -1,11 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foglalas.css">
     <title>Időpont foglalás</title>
 </head>
+
 <body>
-    
+    <nav>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">FŐOLDAL</a></li>
+                <li><a href="animation.html">ANIMÁCIÓ</a></li>
+                <li><a href="form.html">ŰRLAP</a></li>
+                <li><a href="#nogo">TÁBLÁZAT</a></li>
+                <li><a href="#nogo">KÉPGALÉRIA</a></li>
+                <li><a href="#nogo">VALAMI</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Időpont és edző foglalás</h1>
+    </header>
+
+    <div class="container">
+        <section class="main">
+
+            <!-- EGÉSZ OLDAL EGY FORM --->
+            <form class="form-box" action="#" method="post">
+
+                <h2>Válassz edzőt:</h2>
+
+                <label><input type="radio" name="edzo" value="Balogh Gergő" required> Balogh Gergő</label><br>
+                <label><input type="radio" name="edzo" value="Bán Áron"> Bán Áron</label><br>
+                <label><input type="radio" name="edzo" value="Tóth Zoltán"> Tóth Zoltán</label><br>
+                <label><input type="radio" name="edzo" value="Orsós Dzsesszika"> Orsós Dzsesszika</label><br>
+                <label><input type="radio" name="edzo" value="Hosszú Katalin"> Hosszú Katalin</label><br>
+                <label><input type="radio" name="edzo" value="Okbong Olatunji"> Okbong Olatunji</label><br>
+
+                <h3>Válassz napot:</h3>
+                <select name="nap" required>
+                    <option value="">-- Válassz napot --</option>
+                    <option>Hétfő</option>
+                    <option>Kedd</option>
+                    <option>Szerda</option>
+                    <option>Csütörtök</option>
+                    <option>Péntek</option>
+                    <option>Szombat</option>
+                </select>
+
+                <h3>Válassz időpontot:</h3>
+                <select name="ora" required>
+                    <option value="">-- Válassz időpontot --</option>
+                    <option>08:00</option>
+                    <option>09:00</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>12:00</option>
+                    <option>13:00</option>
+                    <option>14:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                    <option>17:00</option>
+                    <option>18:00</option>
+                    <option>19:00</option>
+                </select>
+
+                <br>
+
+                <h2>Válassz edzést/masszázst:</h2>
+                <div class="edzes-valaszto">
+                    <label><input type="checkbox" name="edzes" value="Úszás"> Úszás</label><br>
+                    <label><input type="checkbox" name="edzes" value="Konditermes edzés"> Konditermes edzés</label><br>
+                    <label><input type="checkbox" name="edzes" value="Muay Thai"> Muay Thai</label><br>
+                    <label><input type="checkbox" name="edzes" value="Brazil Jiu Jitsu"> Brazil Jiu Jitsu</label><br>
+                    <label><input type="checkbox" name="edzes" value="Kick-box"> Kick-box</label><br>
+                    <label><input type="checkbox" name="edzes" value="Erőemelő edzés"> Erőemelő edzés</label><br>
+                    <label><input type="checkbox" name="edzes" value="Spinning edzés"> Spinning edzés</label><br>
+                    <label><input type="checkbox" name="edzes" value="Jumping edzés"> Jumping edzés</label><br>
+                    <label><input type="checkbox" name="edzes" value="IronMAN felkészítő edzés"> IronMAN felkészítő
+                        edzés</label><br>
+                    <label><input type="checkbox" name="edzes" value="Masszázs"> Masszázs</label><br>
+                </div>
+
+                <br><br>
+
+                <h2>Személyes adatok</h2>
+
+                <p>
+                    <label for="nev">Név:
+                        <input type="text" name="nev" id="nev" placeholder="Név megadása..." required>
+                    </label>
+                    <small>Vezetéknév Keresztnév</small>
+                </p>
+
+                <p>
+                    <label for="telefon">Telefonszám:
+                        <input type="tel" name="telefon" id="telefon" placeholder="Telefonszám megadása..." required>
+                    </label>
+                </p>
+
+                <button type="submit" class="vegleges">Végleges foglalás elküldése</button>
+            </form>
+
+        </section>
+    </div>
+
+    <footer>
+        <h3>CopyRight &#169; | All Rights Reserved 2025</h3>
+    </footer>
+
 </body>
+
 </html>
