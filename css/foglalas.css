@@ -42,9 +42,16 @@ nav {
 }
 
 
-h2,
-h3 {
-    margin-bottom: 10px;
+h2, h3 {
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25); /* fél-áttetsző világos szürke */
+}
+
+footer h3 {
+    margin-bottom: none;
+    border-bottom: none;
+    padding-bottom: none;
 }
 
 select,
@@ -60,12 +67,23 @@ button {
 }
 
 button {
+    background-color: #6d4cc9;
+    color: #111;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 6px;
     cursor: pointer;
-    background: #6d4cc9;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
 button:hover {
-    background: #8662ff;
+    background-color: #6d4cc9;
+    color: #fff;
+    box-shadow: 0 0 10px #6d4cc9;
+    transform: scale(1.05);
 }
 
 
@@ -126,7 +144,7 @@ article {
 
 .main {
     display: flex;
-    justify-content: center;   /* form középre */
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
@@ -137,5 +155,38 @@ article {
     border-radius: 20px;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
     border: 1px solid #6d4cc9;
-    width: 380px;              /* fix méret */
+    width: 380px;
+}
+
+.edzos-row {
+  background: #111;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 0;
+  letter-spacing: 1px;
+  border-top: 3px solid #6d4cc9;
+  border-bottom: 3px solid #6d4cc9;
+  word-spacing: 5px;
+}
+
+.edzok-btn {
+    background-color: #6d4cc9;
+    color: #111;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.edzok-btn:hover {
+    background-color: #6d4cc9;
+    color: #fff;
+    box-shadow: 0 0 10px #6d4cc9;
+    transform: scale(1.05);
 }

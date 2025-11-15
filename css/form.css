@@ -13,7 +13,7 @@ nav {
     border-radius: 12px;
     padding: 1px;
     text-align: center;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 #menu li {
@@ -33,7 +33,7 @@ nav {
     font-weight: 600;
     transition: 0.3s ease;
     background-color: #333;
-    
+
 }
 
 #menu ul li a:hover {
@@ -42,30 +42,32 @@ nav {
     box-shadow: 0 0 10px #6d4cc9;
 }
 
-.container, section, header {
+.container,
+section,
+header {
     box-sizing: border-box;
 }
 
 .felso {
-  width: 90%;
-  height: 200px;
-  background-color: #2f2f2f;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
-  border: 1px solid #6d4cc9;
-  border-radius: 15px;
-  text-align: center;
-  padding: 30px;
-  margin: 30px auto;
+    width: 90%;
+    height: 200px;
+    background-color: #2f2f2f;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    border: 1px solid #6d4cc9;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    margin: 30px auto;
 }
 
 .felso h1 {
-  color: white;
-  text-shadow: 0 0 8px #6d4cc9;
+    color: white;
+    text-shadow: 0 0 8px #6d4cc9;
 }
 
 .felso p {
-  color: white;
-  text-shadow: 0 0 8px #6d4cc9;
+    color: white;
+    text-shadow: 0 0 8px #6d4cc9;
 }
 
 .felso {
@@ -78,7 +80,7 @@ nav {
 section {
     background-color: #2f2f2f;
     border-radius: 10px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
     border: 1px solid #6d4cc9;
     width: 1100px;
     margin: 30px auto;
@@ -95,7 +97,7 @@ footer {
     border-radius: 8px;
     width: 88.5%;
     margin: 0 auto 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .container {
@@ -124,7 +126,8 @@ img {
 
 article {
     background-color: #383838;
-    border-radius: 10px;;
+    border-radius: 10px;
+    ;
     padding: 20px;
 }
 
@@ -132,26 +135,27 @@ h2 {
     border: 1px solid #6d4cc9;
     border-radius: 10px;
     padding: 5px;
-    background-color:#2b2b2b;
+    background-color: #2b2b2b;
 }
 
 article ul li {
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 5px 0 5px 0;
     color: #fff;
     text-shadow: 0 0 15px #6d4cc9;
 }
 
 article:hover ul {
-  display: block;
+    display: block;
 }
 
 article ul {
-  display: none;
-  margin-top: 10px;
-  padding-left: 20px;;
-  border-radius: 5px;
+    display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    ;
+    border-radius: 5px;
 }
 
 section h1 {
@@ -168,21 +172,22 @@ section h1 {
 }
 
 button {
-    width: 450px;
-    height: 50px;
-    text-align: center;
-    font-family: "poppins", sans-serif;
-    color: white;
-    text-shadow: 0 0 10px #6d4cc9;
-    background-color: #383838;
-    margin-bottom: 20px;
-    border: 1px solid #6d4cc9;
-    border-radius: 25px;
-    font-size: larger;
+    background-color: #6d4cc9;
+    color: #111;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-bottom: 50px;
 }
 
 button:hover {
     background-color: #6d4cc9;
     color: #fff;
     box-shadow: 0 0 10px #6d4cc9;
+    transform: scale(1.05);
 }
