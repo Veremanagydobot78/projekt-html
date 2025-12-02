@@ -1,0 +1,17 @@
+.felso {
+    width: 90%;
+    height: 200px;
+    background-color: #2f2f2f;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    border: 1px solid #6d4cc9;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    margin: 30px auto;
+}
+
+.felso h1 {
+    color: white;
+    text-shadow: 0 0 8px #6d4cc9;
+}
+

@@ -78,6 +78,18 @@ header {
 
 }
 
+.edzos-row {
+  background: #111;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 0;
+  letter-spacing: 1px;
+  border-top: 3px solid #6d4cc9;
+  border-bottom: 3px solid #6d4cc9;
+  word-spacing: 5px;
+}
 
 .banner {
     position: relative;
