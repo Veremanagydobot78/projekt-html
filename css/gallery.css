@@ -22,7 +22,7 @@
 .gallery img {
     width: 270px;
     height: 230px;
-    border: 1px solid #bbb;
+    border: 1px solid white;
     transition: opacity 300ms ease-in-out;
     opacity: 0.7;
     object-fit: cover;          
