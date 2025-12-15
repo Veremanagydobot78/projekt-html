@@ -6,7 +6,11 @@ body {
     padding: 0;
 }
 
-.container, .rendezes, section, header, .also {
+.container,
+.rendezes,
+section,
+header,
+.also {
     box-sizing: border-box;
 }
 
@@ -18,7 +22,7 @@ nav {
     border-radius: 12px;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 #menu li {
@@ -38,7 +42,7 @@ nav {
     font-weight: 600;
     transition: 0.3s ease;
     background-color: #333;
-    
+
 }
 
 .banner {
@@ -55,7 +59,7 @@ nav {
     width: 500px;
     height: 250px;
     margin: 20px 50px 20px 0;
-    background-image:url(../images/kiskep.png);
+    background-image: url(../images/kiskep.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,24 +75,24 @@ nav {
 }
 
 header {
-    width: 1200px;              
-    margin: 20px auto;          
+    width: 1200px;
+    margin: 20px auto;
     border-radius: 8px;
     overflow: hidden;
 
 }
 
 .edzos-row {
-  background: #111;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 700;
-  text-align: center;
-  padding: 12px 0;
-  letter-spacing: 1px;
-  border-top: 3px solid #6d4cc9;
-  border-bottom: 3px solid #6d4cc9;
-  word-spacing: 5px;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 0;
+    letter-spacing: 1px;
+    border-top: 3px solid #6d4cc9;
+    border-bottom: 3px solid #6d4cc9;
+    word-spacing: 5px;
 }
 
 .banner {
@@ -103,7 +107,7 @@ header {
 .banner img {
     width: 100%;
     height: 100%;
-    object-fit: cover;          
+    object-fit: cover;
     object-position: center;
     display: block;
 }
@@ -115,7 +119,7 @@ header {
     left: 30px;
     color: white;
     z-index: 2;
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
 .cim h1 {
@@ -138,7 +142,7 @@ section {
     padding: 20px;
     background-color: #2f2f2f;
     border-radius: 10px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -171,7 +175,7 @@ h2 {
 .bal-oldal img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 
 }
 
@@ -190,12 +194,12 @@ h2 {
     margin-right: 50px;
     overflow-y: scroll;
     line-height: 1.6;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .bemutatkozas {
     background-color: #383838;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
@@ -203,14 +207,17 @@ h2 {
 .szoveg::-webkit-scrollbar {
     width: 8px;
 }
+
 .szoveg::-webkit-scrollbar-track {
     background: #2f2f2f;
     border-radius: 8px;
 }
+
 .szoveg::-webkit-scrollbar-thumb {
     background: #6d4cc9;
     border-radius: 8px;
 }
+
 .szoveg::-webkit-scrollbar-thumb:hover {
     background: #8a69ff;
 }
@@ -230,7 +237,7 @@ h2 {
     width: 500px;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -261,7 +268,7 @@ footer {
     border-radius: 8px;
     width: 88.5%;
     margin: 0 auto 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .container {
@@ -274,14 +281,14 @@ footer {
     margin-right: 40px;
     background-color: #33333333;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
 .part {
     background-color: #33333333;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
@@ -296,4 +303,3 @@ footer {
     font-size: 110%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
